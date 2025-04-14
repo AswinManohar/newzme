@@ -1,0 +1,77 @@
+{
+  "check_interval": 3600,
+  "tier_intervals": {
+    "1": 3600,
+    "2": 14400,
+    "3": 21600,
+    "4": 86400
+  },
+  "user_agents": [
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 17_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/123.0.6312.87 Mobile/15E148 Safari/604.1",
+    "Mozilla/5.0 (Linux; Android 14; SM-S908B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Mobile Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+  ],
+  "referrers": [
+    "https://www.google.com/",
+    "https://www.bing.com/search?q=relevant+search+term",
+    "https://www.reddit.com/r/relevant_subreddit",
+    "https://t.co/shortened_url",
+    "https://www.linkedin.com/feed/",
+    "https://news.ycombinator.com/",
+    "https://www.facebook.com/"
+  ],
+  "selectors": [
+    ".ad", ".ads", ".advertisement",
+    "[class*=\"social\"]:not(article [class*=\"social\"])",
+    "[id*=\"social\"]:not(article [id*=\"social\"])",
+    ".share:not(article .share)", ".comments:not(article .comments)",
+    "aside:not(article aside)", "nav:not(article nav)",
+    "header:not(article header)",
+    "footer:not(article footer)",
+    "[role=\"complementary\"]", "[role=\"banner\"]", "[role=\"navigation\"]",
+    "form:not(article form)",
+    ".related:not(article .related)",
+    ".recommended:not(article .recommended)",
+    ".newsletter:not(article .newsletter)",
+    ".subscription:not(article .subscription)",
+    ".cookie-banner", ".cookie-notice", ".gdpr", ".consent",
+    ".overlay", ".modal", ".popup"
+  ],
+  "paywall_selectors": [
+    "div[id*=\"paywall\"]", "div[class*=\"paywall\"]",
+    "div[id*=\"subscribe\"]", "div[class*=\"subscribe\"]",
+    "div[class*=\"premium\"]", "div[id*=\"premium\"]",
+    "div[class*=\"membership\"]", "div[id*=\"membership\"]"
+  ],
+  "content_selectors": [
+    "div[class*=\"content\"]", "div[class*=\"article\"]",
+    "div[id*=\"content\"]", "div[id*=\"article\"]",
+    "div[class*=\"story\"]", "div[class*=\"post\"]",
+    "main", ".main", "#main",
+    "div[class*=\"body\"]", "div[id*=\"body\"]"
+  ],
+  "paywall_phrases": [
+    "subscribe to continue reading",
+    "subscribe to read the full article",
+    "subscribe for unlimited access",
+    "to continue reading this premium content",
+    "premium article",
+    "subscribe now",
+    "sign up to read more",
+    "become a member",
+    "continue reading by subscribing",
+    "create an account to continue",
+    "register to continue reading",
+    "this content is only available to subscribers"
+  ],
+  "cookies": {
+    "euconsent": "BOrd-jIOrd-jIAOABAENCU-AAAApx7_______9______9uz_Gv_v_f__33e8__9v_l_7_-___u_-33d4-_1vf99yfm1-7ftr3tp_87ues2_Xur__79__3z3_9pxP78k89r7337Ew_v-_v-b7JCPN_Y3v-8K96lPKACE",
+    "nyt-a": "ifLiRGHHnhbNs5jM080WJJ",
+    "G_ENABLED_IDPS": "google",
+    "datadome": "q1hUvkZLIV~2UbU4e5QscuzHRJ0bRNR8Qd9eqRmgUV3EYmGQbYfwRpfTWx8F7X3g4bjE-DCu59O.QWvOegWf50tmKbxw8xBsm.D~EtW3YyCD46pdlmWIc5GdecPb"
+  }
+}
+
